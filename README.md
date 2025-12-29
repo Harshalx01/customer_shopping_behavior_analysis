@@ -1,52 +1,73 @@
 # Customer Shopping Behavior Analysis
 
-An end-to-end data analytics project that analyzes customer shopping behavior to generate actionable business insights using **SQL, Python, and Power BI**.
+## 📌 Project Overview
+This project analyzes customer shopping behavior to uncover actionable business insights using **SQL, Python, and Power BI**.  
+The objective is to understand purchasing patterns, customer segmentation, and key revenue drivers to support data-driven decision-making.
+
+The analysis is based on a real-world styled retail dataset containing customer demographics, purchase details, discounts, subscriptions, and shipping preferences.
 
 ---
 
-## Project Overview
-This project focuses on understanding customer purchasing patterns, spending behavior, and segmentation to support data-driven business decisions. The analysis answers real-world business questions related to revenue, discounts, subscriptions, age groups, and locations.
+## 🧠 Business Questions Answered
+
+1. How does total revenue vary by gender?  
+2. Does offering a discount impact average customer spend?  
+3. Which products receive the highest customer ratings?  
+4. How does average spend vary by shipping type?  
+5. How does subscription status affect customer spending behavior?  
+6. Which items are most frequently purchased with discounts applied?  
+7. How does spending vary across different age groups?  
+8. What are the top-performing products within each category?  
+9. How does purchase frequency influence average spend?  
+10. Which locations generate the highest total revenue?
 
 ---
 
-## Tools & Technologies
-- **SQL (SQLite)** – Business analysis queries  
-- **Python (Pandas, NumPy)** – Data cleaning & feature engineering  
-- **Power BI** – Interactive dashboard & visual storytelling  
-- **Google Colab** – Analysis environment  
+## 🗄️ SQL Analysis
+All SQL queries used to answer the above business questions are stored in the **`sql/`** folder.
+
+- Queries were written using standard SQL  
+- Aggregations, grouping, filtering, and ranking were used extensively  
+- Top-N filtering was applied where results were large
+
+📂 **SQL file:**  
+`sql/customer_shopping_behavior_analysis.sql`
 
 ---
 
-## Business Questions Answered
-1. Total revenue by gender  
-2. Average spend with vs without discounts  
-3. Top products by customer ratings  
-4. Shipping type impact on spending  
-5. Subscription vs non-subscription behavior  
-6. Most discounted products  
-7. Spending patterns by age group  
-8. Top-performing items by category  
-9. Purchase frequency vs average spend  
-10. Top revenue-generating locations  
+## 🔑 Key Insights
+
+- Male customers contribute significantly higher total revenue than female customers.
+- Discounts do not lead to a meaningful increase in average purchase value.
+- Products such as **Gloves, Sandals, Boots, Hats, and T-shirts** receive the highest customer ratings.
+- Young Adult and Middle-aged customers generate the highest average spend.
+- A small number of locations contribute disproportionately to overall revenue.
 
 ---
 
-## Key Insights
-- Clothing and Accessories generate the highest revenue  
-- Young Adults and Middle-aged customers drive maximum spending  
-- Discounts do not significantly increase average spend  
-- Subscription users place fewer orders than non-subscribers  
-- Shipping type has minimal impact on spending behavior  
+## 📊 Power BI Dashboard
+An interactive Power BI dashboard was created to visualize:
 
----
-
-## Power BI Dashboard
-The interactive dashboard includes:
-- Revenue & sales by category  
+- Revenue and order distribution by category  
 - Customer segmentation by age group and gender  
-- Subscription and shipping insights  
-- Dynamic filters for exploration  
+- Subscription and shipping behavior analysis  
+- Key KPIs including:
+  - Total customers
+  - Average purchase amount
+  - Average review rating
 
+📁 **Dashboard file:** `customer_shopping_behavior.pbix`
 
 ---
 
+## 🛠️ Tools & Technologies
+- SQL (SQLite / MySQL-style queries)
+- Python (Pandas)
+- Power BI
+- GitHub
+
+---
+
+## 👤 Author
+**Harshal Rajgadkar**  
+Aspiring Data Analyst | SQL • Python • Power BI
